@@ -1,0 +1,15 @@
+@media (max-width:600px) {
+    img{
+        height: 100% !important;
+        width: 100% !important;
+    }
+}
+
+.insta i {
+    /* height: 20px; */
+    font-size: 25px;
+    margin: 6px 0;
+    position: relative;
+    /* right: -380px; */
+    color: #cf38c3;
+  }

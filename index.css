@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+h1,h2{
+  font-family: 'Bitter', serif;
+  /* font-size: 20px; */
+  text-align: center;
+}
+
+
+/* creator */
+
+.creator{
+  min-height: 100vh;
+  width: auto;
+  background: 
+  url("charusat creator/3.png");
+  background-position: center;
+  background-size: 100vw 100vh;
+  position: relative;
+}
+
+@media (max-width : 500px) {
+  .creator{
+    width: auto;
+    background:url("charusat creator/3.png")no-repeat;
+    background-position: center;
+    background-size: 100vw 50vh;
+    position: relative;
+    margin: 0px;
+}
+  }
+
+
+
+/* NAV BAR */
+
+.header{
+    /* min-height: 100vh; */
+    /* width: auto;
+    background: 
+    url("img/back.jpg");
+    background-position: center;
+    background-size: 100vw 100vh;
+    position: relative; */
+    /* transition: 2s; */
+
+}
+
+.menu{
+    height: 25px;
+    position: absolute;
+    right: 10px;
+    /* display: none; */
+    filter: contrast(0%);
+
+}
+
+.insta i {
+  /* height: 20px; */
+  font-size: 25px;
+  margin: 6px 0;
+  position: relative;
+  /* right: -380px; */
+  color: #cf38c3;
+}
+
+.fs{
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .navbar{
+        position: absolute;
+        background: #e2e0df;
+        height: 100vh;
+        width: 150px;
+        text-align: center;
+        /* right: -100%; */
+        display: none;
+        /* display: flex;
+        flex-direction: column; */
+        top: 0;
+        z-index: 2;
+        text-align: left;
+    }
+    .subnav-content a{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar a,button{
+        display: block;
+    }
+    
+    .fs{
+        display: block;
+        margin: 10px;
+        font-size: 22px;
+        height: 40px;
+        cursor: pointer; 
+        filter: saturate(7);
+        filter: contrast(0%);
+        top: 20px;
+    } 
+    nav ul{
+        padding: 10px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    
+}
+
+
+/* The navigation menu */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Navigation links */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The subnavigation menu */
+  .subnav {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Subnav button */
+  .subnav .subnavbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  /* Add a red background color to navigation links on hover */
+  .navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: rgb(0, 153, 255);
+  }
+  
+  /* Style the subnav content - positioned absolute */
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: rgb(0, 153, 255);
+    width: 100%;
+    z-index: 1;
+  }
+  
+  /* Style the subnav links */
+  .subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Add a grey background color on hover */
+  .subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+  }
+  
+  /* When you move the mouse over the subnav container, open the subnav content */
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+  
+body{
+  height: 100vh;
+  
+  
+}
+
+
+
+/* body */
+.link h2{
+  width: 45%;
+  display: inline-block;
+  padding: 10px;
+  margin: 3px;
+  font-size: 20px;
+  height: 20px;
+  background-color: rgb(211, 230, 47);
+  text-align: center;
+}
+h2 a{
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+/* links */
+.links{
+   height: 100%; 
+  /* border: 5px solid black; */
+  /* top: 3vh; */
+  background-color: white; 
+
+}
+
+
+/* sams */
+
+.sam{
+  /* height: 100%;
+  border: 5px solid red;
+  /* top: 0vh; */
+  /* background-color: black; */ 
+}
+.sam1{
+  /* height: 100%;
+  border: 5px solid rgb(64, 160, 19);
+  top: 0vh; */
+  
+  /* background-color: rgb(230, 4, 4); */
+}
+
+.main{
+  width: 80%;
+  margin: 70px auto;
+
+}
+.box{
+  /* border: 3px solid black; */
+  /* height: 40vh; */
+  width: 100%;
+  text-align: center;
+  /* top: 300px; */
+  /* display: flex; */
+  margin-top: 100px;
+}
+.imgs{
+  margin: 10px 0px;
+  display: flex;
+  justify-content: center;
+  /* align-items: ; */
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  
+}
+img{
+  margin: 10px;
+  cursor: pointer;
+}
+
+.box h1{
+  background: gainsboro;
+}
+.h1{
+  width: 90%;
+  margin: 30px auto;
+  text-align: center;
+}
+
+@media (max-width: 600px){
+  .link h2{
+    width: 40%;
+    display: inline-block;
+    padding: 10px;
+    margin: 3px;
+    font-size: 20px;
+    height: 20px;
+    background-color: rgb(211, 230, 47);
+  }
+  h2 a{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+  }
+}
